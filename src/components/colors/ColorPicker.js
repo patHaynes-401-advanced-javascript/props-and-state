@@ -14,7 +14,7 @@ const ColorPicker = ({ colors, selectColor }) => {
 
 ColorPicker.propTypes = {
   colors: PropTypes.arrayOf(PropTypes.string).isRequired,
-  selectColor: PropTypes.func.isRequired
+  selectColor: PropTypes.func
 };
 
 export default ColorPicker;
