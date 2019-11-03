@@ -10,7 +10,7 @@ const ColorDisplay = ({ backgroundColor }) => (
 );
 
 ColorDisplay.propTypes = {
-  backgroundColor: PropTypes.string.isRequired
+  backgroundColor: PropTypes.string
 };
 
 export default ColorDisplay;
